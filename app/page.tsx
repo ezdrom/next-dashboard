@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
-      <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
+      <div className="flex h-20 shrink-0 items-end rounded-lg bg-green-700 p-4 md:h-52">
         <AcmeLogo />
       </div>
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
@@ -16,22 +16,21 @@ export default function Page() {
             className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent"
           />
           <p className={`${lusitana.className} antialiased text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Welcome to Debth.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
-            </a>
-            , brought to you by Vercel.
+            <strong>Welcome to Debth.</strong> Till Debt do us part, it can only be paid through death
+          </p>
+          <p className={`${lusitana.className} antialiased text-xl text-gray-800 md:text-2xl md:leading-normal`}>
+            A list of debts of Ezequiel, he likes to forget but this tech does not,
           </p>
           <Link
             href="/login"
-            className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
+            className="flex items-center gap-5 self-start rounded-lg bg-green-700 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-green-800 md:text-base"
           >
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
-          <Image
+          {/* <Image
             src="/hero-desktop.png"
             width={1000}
             height={760}
@@ -44,7 +43,7 @@ export default function Page() {
           height={620}
           className='block md:hidden'
           alt="Screenshots of the daskboard project showing mobile version"
-          />
+          /> */}
         </div>
       </div>
     </main>
