@@ -19,7 +19,7 @@ export default function Page() {
             <strong>Welcome to Debth.</strong> Till Debt do us part, it can only be paid through death
           </p>
           <p className={`${lusitana.className} antialiased text-xl text-gray-800 md:text-2xl md:leading-normal`}>
-            A list of debts of Ezequiel, he likes to forget but this tech does not,
+            A list of debts of Ezequiel, he likes to forget but this site does not,
           </p>
           <Link
             href="/login"
